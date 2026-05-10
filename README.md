@@ -48,3 +48,49 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+---
+
+## Instrucciones rápidas (Español)
+
+Si quieres probar esta app en tu iPhone con **Expo Go** y escanear el QR, sigue estos pasos:
+
+1. Instala dependencias del proyecto:
+
+```bash
+npm install
+```
+
+2. Instala la dependencia de geolocalización (si no está instalada):
+
+```bash
+npx expo install expo-location
+```
+
+3. Inicia el servidor de desarrollo:
+
+```bash
+npx expo start
+```
+
+4. Abre la app **Expo Go** en tu iPhone y escanea el código QR que aparece en la terminal o en la ventana del navegador (DevTools).
+
+Notas:
+
+- La app pedirá permiso para acceder a la ubicación; otorga el permiso en tu iPhone.
+
+## Dependencias para el mapa
+
+Si quieres mostrar un mapa integrado (recomendado), instala `react-native-maps` también:
+
+```bash
+npx expo install react-native-maps
+```
+
+Después de instalar las dependencias, inicia Expo con caché limpio:
+
+```bash
+npx expo start -c
+```
+
+- Si quieres ver actualizaciones en tiempo real, pulsa "Actualizar ubicación" en la pantalla.
