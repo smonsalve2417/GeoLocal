@@ -94,3 +94,6 @@ npx expo start -c
 ```
 
 - Si quieres ver actualizaciones en tiempo real, pulsa "Actualizar ubicación" en la pantalla.
+
+5. Diapositivas.
+[https://canva.link/qxbsvlq94ovjwow](https://canva.link/qxbsvlq94ovjwow) 
